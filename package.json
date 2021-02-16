@@ -1,5 +1,5 @@
 {
-  "name": "serverless",
+  "name": "demo-ts",
   "version": "1.0.0",
   "description": "Serverless aws-nodejs-typescript template",
   "main": "serverless.ts",
@@ -24,7 +24,7 @@
     "@types/uuid": "^8.3.0",
     "fork-ts-checker-webpack-plugin": "^6.0.0",
     "json-schema-to-ts": "^1.4.1",
-    "serverless": "^2.16.0",
+    "serverless": "^2.24.0",
     "serverless-webpack": "^5.2.0",
     "ts-loader": "^8.0.10",
     "ts-node": "^9.0.0",
