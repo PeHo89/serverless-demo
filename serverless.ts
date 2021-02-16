@@ -18,7 +18,6 @@ const serverlessConfiguration: AWS = {
     name: 'aws',
     runtime: 'nodejs12.x',
     profile: 'peho',
-    memorySize: 256,
     apiGateway: {
       minimumCompressionSize: 1024,
       shouldStartNameWithService: true,

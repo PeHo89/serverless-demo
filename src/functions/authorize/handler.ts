@@ -29,7 +29,7 @@ async function authorize(event, _context, callback): Promise<any> {
   if (!result.Item) {
     callback('Unauthorized');
   }
-
+  
   const policy = {
     principalId: result.Item.id,
     policyDocument: {
@@ -42,7 +42,7 @@ async function authorize(event, _context, callback): Promise<any> {
           },
       ],
     },
-    context: { user: result.Item },
+    context: { user: JSON.stringify(result.Item) },
   };
 
   callback(null, policy);
